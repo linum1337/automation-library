@@ -14,7 +14,7 @@ import sys
 import json
 import requests
 
-def main_home(request):  # Главная страница
+def main(request):  # Главная страница
     return render(request, 'main/main.html')
 
 def custom_logout(request):  # Самописный выход

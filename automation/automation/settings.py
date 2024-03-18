@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'automation.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'myproject',
-        'USER': 'myprojectuser',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
+        'NAME': 'automation',
+        'USER': 'automationuser',
+        'PASSWORD': 'qwerty123',
+        'HOST': '193.164.17.141',
         'PORT': '',
     }
 }
